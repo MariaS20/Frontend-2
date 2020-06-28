@@ -1,4 +1,4 @@
-# frontend-2 
+# Front-end 2
 
 Voor het vak Front-end 2 heb ik een feature moeten ontwikkelen door gebruik te maken van Progressive Enhancement. 
 
