@@ -1,0 +1,158 @@
+body {
+    background-image: linear-gradient(to right, #d9e4fa, #f5dcc4, #ffffff);
+    font-family: 'Raleway', sans-serif;
+    margin-top: 7em;
+}
+
+#logoZwart {
+    position: absolute;
+    top: 13px;
+    width: 12%;
+
+}
+
+main {
+    background-color: white;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 1.3em 4em;
+    padding-bottom: 4.3em;
+    border-radius: 8px;
+    box-shadow: 11px 12px 23px -4px rgba(122, 122, 122, 0.235);
+
+}
+
+form * {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+
+}
+
+h1 {
+    padding-bottom: 1.4em;
+    text-align: center;
+}
+
+input {
+    padding: 0.9em 0;
+    margin-bottom: 1.1em;
+    border: 2px solid rgb(193, 193, 193);
+    border-radius: 5px;
+    align-items: center;
+
+}
+
+/* Zorgt ervoor dat de input en placeholder allemaal gelijk komen te staan */
+input[type=text] {
+    padding-left: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+
+}
+
+input[type=email] {
+    padding-left: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+
+}
+
+input[type=password] {
+    padding-left: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+
+}
+
+/* gelinkt aan js, wanneer er een niet ingevuld veld is wordt deze rood */
+input.invalid {
+    border: 2px solid #a40000;
+}
+
+label {
+    margin-bottom: 0.5em;
+}
+
+#mainButton {
+
+    margin-top: 3em;
+    padding: 1em;
+    font-size: 1.1em;
+    border-radius: 7px;
+    border: none;
+    color: white;
+    background-color: rgb(171, 179, 211);
+}
+
+#mainButton:hover {
+    background-color: rgb(185, 194, 230);
+    transition: all 0.6s ease 0.1s;
+}
+
+a {
+    position: absolute;
+    top: 13px;
+    right: 19px;
+
+}
+
+a:visited {
+    color: black;
+}
+
+/***************************************VOOR JAVASCRIPT ************************************************/
+
+.progressBar,
+.progressFront {
+    border-radius: 4px;
+}
+
+/* display none, wordt in javascript pas aangezet */
+.progressBar {
+    display: none;
+    background-color: rgb(230, 230, 230);
+    text-align: center;
+    font-size: 1em;
+
+
+}
+
+.progressFront {
+    background-color: #f5dcc4;
+    width: 30%;
+    padding: 0.1em;
+    transition: width 1s ease 0.2s;
+}
+
+
+.knoppen {
+    float: right;
+    max-width: 150px;
+    margin: 1em 0;
+    display: none;
+}
+
+#volgende {
+    background-color: rgb(171, 179, 211);
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 7px;
+    margin-left: 0.2em;
+}
+
+#volgende:hover {
+    opacity: 0.8;
+}
+
+#terug {
+    background-color: rgb(194, 201, 230);
+    color: rgb(124, 132, 165);
+    border: none;
+    border-radius: 7px;
+    padding: 10px 20px;
+    font-size: 17px;
+}

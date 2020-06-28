@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <img id="logoZwart" src="images/logoZwart.jpg" alt="logo">
+    <main>
+
+        <section class="progress">
+            <div class="stap"></div>
+            <div class="stap"></div>
+            <div class="stap"></div>
+            <div class="stap"></div>
+        </section>
+
+        <div class="progressBar">
+            <div class="progressFront">
+                50%
+            </div>
+        </div>
+
+        <h1>Registreren</h1>
+
+        <form id="registreer" action=registreren.html method=post>
+
+            <div class="info">
+                <label>Naam </label>
+                <input type="text" placeholder="John">
+            </div>
+
+            <div class="info">
+                <label>Gebruikersnaam </label>
+                <input type="text" placeholder="Johndoe22">
+            </div>
+
+            <div class="info">
+                <label>Email</label>
+                <input type="email" placeholder="john@doe.nl">
+            </div>
+
+            <div class="info">
+                <label>Wachtwoord </label>
+                <input name=wachtwoord type=password>
+            </div>
+
+            <button id="mainButton">Registreren</button>
+
+            <div class="knoppen">
+                <button type="button" id="terug" onclick="volgendeTerug(-1)">Terug</button>
+                <button type="button" id="volgende" onclick="volgendeTerug(1)">Volgende</button>
+            </div>
+        </form>
+    </main>
+
+    <a href="index.html">Terug naar login</a>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
